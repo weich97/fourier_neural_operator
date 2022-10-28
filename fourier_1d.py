@@ -157,7 +157,7 @@ width = 64
 ################################################################
 
 # Data is of the shape (number of samples, grid size)
-dataloader = MatReader('data/burgers_data_R10.mat')
+dataloader = MatReader('/content/drive/MyDrive/burgers_data_R10.mat')
 x_data = dataloader.read_field('a')[:,::sub]
 y_data = dataloader.read_field('u')[:,::sub]
 
